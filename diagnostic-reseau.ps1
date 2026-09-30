@@ -4,3 +4,5 @@ Write-Host "Affichage des serveurs DNS"
 Get-DnsClientServerAddress
 Write-Host "Test de la passerelle"
 Test-NetConnection 192.168.4.126
+Write-Host "Informations système"
+Get-ComputerInfo
